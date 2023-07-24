@@ -1,0 +1,3 @@
+onupdate='(test)=>{console.log("hello " + test)}' id='test'
+
+eval(document.getElementById('test').getAttribute('onupdate'))()
